@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;1,300&family=Inconsolata:wght@300&family=Montserrat:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;1,300&family=Inconsolata:wght@300&family=Montserrat:wght@200&family=Source+Code+Pro:wght@300&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,17 +9,17 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 h2 {
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
 }
 
 ul {
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
 }
 
 p {
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
 }
