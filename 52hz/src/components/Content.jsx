@@ -45,7 +45,7 @@ const Content = () => {
       <div id="about">
         <div className="w-full bg-white py-16">
           <div className="max-w-[850px] mx-auto grid md:grid-cols-2 ">
-            <div className="text-6xl mx-auto ">
+            <div className="text-6xl mx-auto text-center">
               <p>
                 ONE OF <br></br>A KIND
               </p>
@@ -75,7 +75,7 @@ const Content = () => {
             </p>
           </div>
 
-          <div className="max-w-[2000px] flex pl-10 justify-center">
+          <div className="max-w-[2000px] flex pl-10 pb-16 justify-center">
             <button onClick={togglePlay2}>
               {isPlaying2 ? (
                 <CgPlayPauseO size={50} />
@@ -87,6 +87,36 @@ const Content = () => {
               Listening to the call of a blue whale, you can realise the
               difference.
             </p>
+          </div>
+
+          <div className="w-full bg-[#2A84EB]">
+            <div className="py-16 max-w-[850px] mx-auto grid md:grid-cols-2 ">
+              <div className="text-6xl mx-auto text-center text-white">
+                <p>
+                  FOREVER <br></br>ALONE?
+                </p>
+              </div>
+
+              <div>
+                <p className="text-2xl text-white">
+                  First discovered in 1989, it's call is the only one of its
+                  kind detected anywhere, with only one source per season.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-[2000px] flex text-center justify-center">
+              <p className=" pb-16 text-2xl text-white">
+                With no actual sightings of the whale, scientists at the ㅤ
+                <a
+                  href="https://www.whoi.edu/oceanus/feature/a-lone-voice-crying-in-the-watery-wilderness/"
+                  className="underline hover:text-blue-200 hover:cursor-pointe transition ease-in-out delay-50"
+                >
+                  Woods Hole Oceanographic Institution
+                </a>
+                <br></br>speculate that it could be a malformed whale or a blue
+                whale hybrid.
+              </p>
+            </div>
           </div>
         </div>
       </div>
