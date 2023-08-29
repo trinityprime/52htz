@@ -23,3 +23,13 @@ ul {
 p {
   font-family: "Inconsolata";
 }
+
+.header-bg {
+  background-color: #2a84eba1;
+  transition: ease-in-out 0.5s;
+}
+
+.header {
+  background-color: transparent;
+  transition: ease-in-out 0.5s;
+}
