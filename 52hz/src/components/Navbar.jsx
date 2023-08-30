@@ -6,7 +6,7 @@ const Navbar = () => {
   const [navColor, setNavColor] = useState(false);
 
   const changeColor = () => {
-    if (window.scrollY >= 1000) {
+    if (window.scrollY >= 950) {
       setNavColor(true);
     } else {
       setNavColor(false);
@@ -18,14 +18,14 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", changeColor);
     };
-  }, []);
+  });
 
   return (
     <div className={navColor ? "header-bg" : "header"}>
       <div className="flex justify-center h-24 mx-0 px-4 text-xl text-white">
         <ul className="flex p-4">
           <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
-            <Link activeClass="active" smooth spy to="about">
+            <Link activeClass="active" smooth spy to="About">
               ABOUT
             </Link>
           </li>

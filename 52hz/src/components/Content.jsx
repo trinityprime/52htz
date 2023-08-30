@@ -19,7 +19,7 @@ const Content = () => {
     {
       onplay: () => setIsPlaying2(true),
       onend: () => setIsPlaying2(false),
-    },
+    }
   );
 
   const togglePlay = () => {
@@ -42,8 +42,8 @@ const Content = () => {
 
   return (
     <>
-      <div id="about">
-        <div className="w-full bg-white py-16">
+      <div id="About">
+        <div className="w-full bg-white py-16 z-50">
           <div className="max-w-[850px] mx-auto grid md:grid-cols-2 ">
             <div className="text-6xl mx-auto text-center">
               <p>
