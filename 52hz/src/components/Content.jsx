@@ -19,7 +19,7 @@ const Content = () => {
     {
       onplay: () => setIsPlaying2(true),
       onend: () => setIsPlaying2(false),
-    }
+    },
   );
 
   const togglePlay = () => {
