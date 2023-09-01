@@ -104,6 +104,7 @@ const Content = () => {
                 </p>
               </div>
             </div>
+
             <div className="max-w-[2000px] flex text-center justify-center">
               <p className=" pb-16 text-2xl text-white">
                 With no actual sightings of the whale, scientists at the ㅤ
@@ -118,6 +119,24 @@ const Content = () => {
               </p>
             </div>
           </div>
+
+          <div className="w-full">
+            <div className="py-16 max-w-[850px] mx-auto grid md:grid-cols-2 ">
+              <div className="text-6xl mx-auto text-center text-black">
+                <p>
+                  CLOSING <br></br> THOUGHTS
+                </p>
+              </div>
+
+              <div>
+                <p className="text-2xl text-black">
+                  Swimming alone in the sea
+                </p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </>
