@@ -19,7 +19,7 @@ const Content = () => {
     {
       onplay: () => setIsPlaying2(true),
       onend: () => setIsPlaying2(false),
-    },
+    }
   );
 
   const togglePlay = () => {
@@ -120,23 +120,35 @@ const Content = () => {
             </div>
           </div>
 
-          <div className="w-full">
-            <div className="py-16 max-w-[850px] mx-auto grid md:grid-cols-2 ">
-              <div className="text-6xl mx-auto text-center text-black">
-                <p>
-                  CLOSING <br></br> THOUGHTS
-                </p>
+          <div>
+            <div className="w-full bg-white py-16 z-50">
+              <div className="max-w-[1500px] mx-auto md:grid-cols-2 ">
+                <div className="text-6xl mx-auto text-center">
+                  <p>CLOSING THOUGHTS</p>
+                </div>
               </div>
 
-              <div>
-                <p className="text-2xl text-black">
-                  Swimming alone in the sea
-                </p>
+              <div className="max-w-[2000px] flex py-8 pl-10 text-center justify-center">
+                <div className="text-2xl p-4">
+                  <p>Swimming all alone in the sea, one must wonder.</p>
+                  <p>Does it even know others of its kind exist?</p>
+                  <p>
+                    Or does it think that it's destined to be the only whale in
+                    the world.
+                  </p>
+                  <p className="pt-10">
+                    Being in solitude for it's whole life, does it ever get
+                    lonely?
+                  </p>
+                  <p>
+                    However, I must imagine a sense of peace comes with being
+                    alone
+                  </p>
+                  <p>Swimming around without a care in the world.</p>
+                </div>
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </>
