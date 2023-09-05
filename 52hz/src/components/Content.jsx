@@ -42,115 +42,115 @@ const Content = () => {
 
   return (
     <>
-      <div id="About">
-        <div className="w-full bg-white py-16 z-50">
-          <div className="max-w-[850px] mx-auto grid md:grid-cols-2 ">
-            <div className="text-6xl mx-auto text-center">
-              <p>
-                ONE OF <br></br>A KIND
-              </p>
-            </div>
-
-            <div className="text-2xl">
-              <p>
-                With blue whales usually having a vocalization range of 10-39Hz,
-                52 Blue's call of 52Hz is much higher in frequency, shorter and
-                more frequent.
-              </p>
-            </div>
-          </div>
-
-          <div className="max-w-[2000px] flex py-8 pl-10 justify-center">
-            <button onClick={togglePlay}>
-              {isPlaying ? (
-                <CgPlayPauseO size={50} />
-              ) : (
-                <CgPlayButtonO size={50} />
-              )}{" "}
-              {/* ? = if , : = else*/}
-            </button>
-            <p className="text-2xl p-4">
-              This signal was recorded in the northeast Pacific.<br></br>It has
-              been sped up 10x, raising the pitch to 520 Hz.
-            </p>
-          </div>
-
-          <div className="max-w-[2000px] flex pl-10 pb-16 justify-center">
-            <button onClick={togglePlay2}>
-              {isPlaying2 ? (
-                <CgPlayPauseO size={50} />
-              ) : (
-                <CgPlayButtonO size={50} />
-              )}
-            </button>
-            <p className="text-2xl p-4">
-              Listening to the call of a blue whale, you can realise the
-              difference.
-            </p>
-          </div>
-
-          <div className="w-full bg-[#2A84EB]">
-            <div className="py-16 max-w-[850px] mx-auto grid md:grid-cols-2 ">
-              <div className="text-6xl mx-auto text-center text-white">
+        <div id="About">
+          <div className="w-full bg-white py-16 z-50">
+            <div className="max-w-[850px] mx-auto grid md:grid-cols-2 ">
+              <div className="text-6xl mx-auto text-center">
                 <p>
-                  FOREVER <br></br>ALONE?
+                  ONE OF <br></br>A KIND
                 </p>
               </div>
 
-              <div>
-                <p className="text-2xl text-white">
-                  First discovered in 1989, it's call is the only one of its
-                  kind detected anywhere, with only one source per season.
+              <div className="text-2xl">
+                <p>
+                  With blue whales usually having a vocalization range of
+                  10-39Hz, 52 Blue's call of 52Hz is much higher in frequency,
+                  shorter and more frequent.
                 </p>
               </div>
             </div>
 
-            <div className="max-w-[2000px] flex text-center justify-center">
-              <p className=" pb-16 text-2xl text-white">
-                With no actual sightings of the whale, scientists at the ㅤ
-                <a
-                  href="https://www.whoi.edu/oceanus/feature/a-lone-voice-crying-in-the-watery-wilderness/"
-                  className="underline hover:text-blue-200 hover:cursor-pointe transition ease-in-out delay-50"
-                >
-                  Woods Hole Oceanographic Institution
-                </a>
-                <br></br>speculate that it could be a malformed whale or a blue
-                whale hybrid.
+            <div className="max-w-[2000px] flex py-8 pl-10 justify-center">
+              <button onClick={togglePlay}>
+                {isPlaying ? (
+                  <CgPlayPauseO size={50} />
+                ) : (
+                  <CgPlayButtonO size={50} />
+                )}{" "}
+                {/* ? = if , : = else*/}
+              </button>
+              <p className="text-2xl p-4">
+                This signal was recorded in the northeast Pacific.<br></br>It
+                has been sped up 10x, raising the pitch to 520 Hz.
               </p>
             </div>
-          </div>
 
-          <div>
-            <div className="w-full bg-white py-16 z-50">
-              <div className="max-w-[1500px] mx-auto md:grid-cols-2 ">
-                <div className="text-6xl mx-auto text-center">
-                  <p>CLOSING THOUGHTS</p>
+            <div className="max-w-[2000px] flex pl-10 pb-16 justify-center">
+              <button onClick={togglePlay2}>
+                {isPlaying2 ? (
+                  <CgPlayPauseO size={50} />
+                ) : (
+                  <CgPlayButtonO size={50} />
+                )}
+              </button>
+              <p className="text-2xl p-4">
+                Listening to the call of a blue whale, you can realise the
+                difference.
+              </p>
+            </div>
+
+            <div className="w-full bg-[#2A84EB]">
+              <div className="py-16 max-w-[850px] mx-auto grid md:grid-cols-2 ">
+                <div className="text-6xl mx-auto text-center text-white">
+                  <p>
+                    FOREVER <br></br>ALONE?
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-2xl text-white">
+                    First discovered in 1989, it's call is the only one of its
+                    kind detected anywhere, with only one source per season.
+                  </p>
                 </div>
               </div>
 
-              <div className="max-w-[2000px] flex py-8 pl-10 text-center justify-center">
-                <div className="text-2xl p-4">
-                  <p>Swimming all alone in the sea, one must wonder.</p>
-                  <p>Does it even know others of its kind exist?</p>
-                  <p>
-                    Or does it think that it's destined to be the only whale in
-                    the world.
-                  </p>
-                  <p className="pt-10">
-                    Being in solitude for it's whole life, does it ever get
-                    lonely?
-                  </p>
-                  <p>
-                    However, I must imagine a sense of peace comes with being
-                    alone
-                  </p>
-                  <p>Swimming around without a care in the world.</p>
+              <div className="max-w-[2000px] flex text-center justify-center">
+                <p className=" pb-16 text-2xl text-white">
+                  With no actual sightings of the whale, scientists at the ㅤ
+                  <a
+                    href="https://www.whoi.edu/oceanus/feature/a-lone-voice-crying-in-the-watery-wilderness/"
+                    className="underline hover:text-blue-200 hover:cursor-pointe transition ease-in-out delay-50"
+                  >
+                    Woods Hole Oceanographic Institution
+                  </a>
+                  <br></br>speculate that it could be a malformed whale or a
+                  blue whale hybrid.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div className="w-full bg-white py-16">
+                <div className="max-w-[1500px] mx-auto">
+                  <div className="text-6xl mx-auto text-center">
+                    <p>CLOSING THOUGHTS</p>
+                  </div>
+                </div>
+
+                <div className="max-w-[2000px] flex pt-8 pl-10 text-center justify-center ">
+                  <div className="text-2xl p-4">
+                    <p>Swimming all alone in the sea, one must wonder.</p>
+                    <p>Does it even know others of its kind exist?</p>
+                    <p>
+                      Or does it think that it's destined to be the only whale
+                      in the world.
+                    </p>
+                    <p className="pt-10">
+                      Being in solitude for it's whole life, does it ever get
+                      lonely?
+                    </p>
+                    <p>
+                      However, I must imagine a sense of peace comes with being
+                      alone
+                    </p>
+                    <p>Swimming around without a care in the world.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

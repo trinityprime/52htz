@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import "../styles/index.css";
 
 const Navbar = () => {
   const [navColor, setNavColor] = useState(false);
 
   const changeColor = () => {
-    if (window.scrollY >= 750) {
+    if (window.scrollY >= 90) {
       setNavColor(true);
     } else {
       setNavColor(false);
@@ -25,18 +25,23 @@ const Navbar = () => {
       <div className="flex justify-center h-24 mx-0 px-4 text-xl text-white">
         <ul className="flex p-4">
           <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
-            <Link activeClass="active" smooth spy to="About">
+            <Link className="nav-link" to="/home">
+              HOME
+            </Link>
+          </li>
+          <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
+            <Link className="nav-link" to="/about">
               ABOUT
             </Link>
           </li>
           <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
-            <Link activeClass="active" smooth spy to="Contact">
-              CONTACT
+            <Link className="nav-link" to="/more">
+              MORE
             </Link>
           </li>
           <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
-            <Link activeClass="active" smooth spy to="More">
-              MORE
+            <Link className="nav-link" to="/contact">
+              CONTACT
             </Link>
           </li>
         </ul>
