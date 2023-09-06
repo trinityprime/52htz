@@ -34,16 +34,6 @@ const Navbar = () => {
               ABOUT
             </Link>
           </li>
-          <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
-            <Link className="nav-link" to="/more">
-              MORE
-            </Link>
-          </li>
-          <li className="p-4 hover:text-blue-200 hover:cursor-pointer hover:underline transition ease-in-out delay-50">
-            <Link className="nav-link" to="/contact">
-              CONTACT
-            </Link>
-          </li>
         </ul>
       </div>
     </div>
